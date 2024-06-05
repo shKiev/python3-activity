@@ -49,5 +49,13 @@
 
 ############practice#############
 
+user_count_hobby = input("Enter number for test: ")
 
+i = 0
+hobby = []
+while i < user_count_hobby:
+    text = "Enter hobby" + i +": "
+    hobby.append(input(text))
 
+    i +=1
+print(hobby)
