@@ -4,7 +4,6 @@
 # nums = [5,7,-4,5.45,True,6]
 # nums[0] = 34.34
 # # print(nums[3]) 
-
 # nums2 =[5,7,3,[5,"Text", True]]
 # # print(nums2[-2])
 
@@ -34,6 +33,14 @@
 # # nums.count()
 
 # # print(len(nums)) #show you lenth of the file 
+
+#####################################################
+##################List and changes###################
+#####################################################
+
+word = list('Chupakabra')
+word[2] = 'U'
+print(list(word))    #we change index in  Ch*u*pakabra == we change 'u' to 'U' -- just look at the func.
 
 
 ##################################################################
